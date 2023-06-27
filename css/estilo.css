@@ -1,0 +1,633 @@
+*{padding: 0; margin: 0;}
+body{
+	min-height: 100vh;
+}
+
+			/*HEADER*/
+header{
+	height: 60px;
+	background-color: #e8d4cb;
+	padding: 20px;
+}
+.logo img{
+	width: 300px;
+	height: 45px;
+	object-fit: cover;
+	float: left;
+}
+.menu{
+	float: right;
+	padding-top: 15px;
+}
+.menu li{
+	display: inline;
+	list-style: none;
+	padding-right: 20px;
+	font-family: calibri;
+	font-size: 1.1em;
+	vertical-align: center;
+}
+.menu li a{
+	text-decoration: none;
+	color: black;
+}
+
+		/*PAGINA PRINCIPAL*/
+#principal {
+	height: 610px;
+	background-color: #e8d4cb;
+	margin: 0 auto;
+}
+.titulo{
+	text-align: center;
+	font-family: calibri;
+	font-size: 1.6em;
+	border-bottom: 2px dotted grey;
+	width: 500px;
+	margin: 0 auto;
+}
+.cajas{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	text-align: center;
+	padding-top: 50px;
+}
+.cajas h1{
+	font-size: 1.5em;
+	font-family: trebuchet ms;
+}
+.cajas p{
+	font-size: 1em;
+	font-family: calibri;
+}
+.cajas a{
+	display: block;
+	text-decoration: none;
+	margin: 0 auto;
+	width: 100px;
+	padding: 15px;
+	background-color: white;
+	margin-top: 15px;
+	color: black;
+	font-size: 0.8em;
+	font-family: calibri;
+	font-weight: bold;
+}
+.caja{
+	width: 250px;
+	height: 400px;
+}
+.caja img{
+	width: 100px;
+	padding: 20px;
+}
+#bajarmas img{
+	width: 120px;
+}
+.caja a:hover{
+	background-color: #5e2e46;
+	color: white;
+}
+.abajo{
+	padding: 50px;
+}
+#about{
+	height: 300px;
+	background-color: #d0ada7;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 80px;
+}
+.titulo_izquierda h1 {
+	text-align: left;
+	font-family: trebuchet ms;
+	font-size: 4em;
+	padding-bottom: 20px;
+}
+.titulo_izquierda p{
+	width: 500px;
+	font-family: calibri;
+	font-size: 1.2em;
+	line-height: 250%;
+}
+.titulo_izquierda img{
+	width: 550px;
+	position: relative;
+	left: 600px;
+	bottom: 380px;
+}
+#team {
+	height: 900px;
+	background-color: #d0ada7;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 90px;
+}
+.titulo_derecha{
+	text-align: right;
+	font-family: trebuchet ms;
+	font-size: 2.7em;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+.equipo{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	text-align: center;
+	font-family: calibri;
+	padding-top: 30px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+.equipo img{
+	width: 400px;
+	height: 200px;
+	object-fit: cover;
+}
+.trabajador {
+	background-color: white;
+	width: 400px;
+	height: 280px;
+	margin-bottom: 50px;
+}
+.trabajador h1{
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+#clasificacion{
+	background-color: #b67f81;
+	height: 500px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 80px;
+}
+.all{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding-top: 50px;
+}
+.circulo {
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	border: 10px solid #5e2e46;
+}
+.circulo a{
+	color: white;
+	font-style: none;
+	text-decoration: none;
+}
+.circulo a:hover{
+	color: #5e2e46;
+}
+.circulo h1{
+	padding-top: 37%;
+	font-size: 2.5em;
+	font-family: calibri;
+	padding-bottom: 50%;
+}
+#granos:hover,#cafes:hover,#siropes:hover{
+	border: 10px solid white;
+}
+#granos{
+	width: 220px;
+	height: 220px;
+	background-image: url(../img/bolsafondo.jpg);
+	background-size: cover;
+	border-radius: 50%;
+}
+#cafes{
+	width: 220px;
+	height: 220px;
+	background-image: url(../img/botellafondo.jpg);
+	background-size: cover;
+	border-radius: 50%;
+}
+#siropes{
+	width: 220px;
+	height: 220px;
+	background-image: url(../img/jarabefondo.jpg);
+	background-size: cover;
+	border-radius: 50%;
+}
+
+		/*FORMULARIOS*/
+#encuesta{
+	border-bottom: 1px solid grey;
+}
+.formulario {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: calibri;
+	line-height: 150%;
+	background-color: #d0ada7;
+	width: 100%;
+	height: 940px;
+	background-image: url(../img/tacita_opaca3.png);
+	background-size: 275px;
+}
+.form1 h1{
+	font-size: 1.7em;
+}
+.form1 p{
+	font-weight: bold;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+.form1 {
+	width: 550px;
+	height: 800px;
+	background-color: #f4f4f4;
+	padding: 40px;
+	border-radius: 30px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.form1 input[type="submit"],.form2 input[type="submit"],.form3 input[type="submit"],.form4 input[type="submit"]{
+	background-color: #b67f81;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	width: 100%;
+	margin-top: 10px;
+}
+.form1 input[type="reset"] {
+	background-color: grey;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	width: 100%;
+	margin-top: 10px;
+	margin-top: 20px;
+}
+input[type="reset"]:hover {
+	background-color: #4f4f4f;
+}
+.form1 input[type="text"]{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.inicio-form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: calibri;
+	line-height: 150%;
+	background-color: #d0ada7;
+	width: 100%;
+	height: 400px;
+	background-image: url(../img/tacita_opaca3.png);
+	background-size: 275px;
+}
+.form2, .form3 {
+	background-color: #f4f4f4;
+	padding: 40px;
+	border-radius: 30px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	width: 300px;
+	margin: 0 auto;
+	font-family: calibri;
+}
+.form2 h2, .form3 h2,.form4 h2{
+	text-align: center;
+	padding: 8px;
+} 
+.form2 p{
+	padding-top: 15px;
+}
+.form2 a{
+	text-decoration: none;
+	color: #5e2e46;
+	font-weight: bold;
+}
+.form2 input[type="text"], .form2 input[type="password"], 
+.form3 input[type="email"], .form3 input[type="text"], .form3 input[type="password"],.country, form3 input[type="date"]{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-bottom: 10px;
+} 
+input[type="submit"]:hover {
+	background-color: #5e2e46;
+}
+.registro-form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: calibri;
+	line-height: 150%;
+	background-color: #d0ada7;
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/tacita_opaca3.png);
+	background-size: 275px;
+}
+.form-pago{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: calibri;
+	line-height: 200%;
+	background-color: #d0ada7;
+	width: 100%;
+	height: 800px;
+	background-image: url(../img/tacita_opaca3.png);
+	background-size: 275px;
+}
+.form4{
+	background-color: #f4f4f4;
+	padding: 40px;
+	border-radius: 30px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	width: 600px;
+	height: 630px;
+	margin: 0 auto;
+	font-family: calibri;
+}
+.form4 input[type="text"]{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-bottom: 10px;
+} 
+.form4 img{
+	display: flex;
+	float: right;
+	width: 100px;
+}
+#tarjeta{
+	padding-bottom: 5px;
+	border-bottom: 1px solid lightgrey;
+	font-weight: bold;
+	margin: 5px;
+}
+#separar{
+	padding-left: 10px;
+}
+#borde,.menu li a:hover{
+	border-bottom: 2px solid #5e2e46;
+}
+
+		/*PRODUCTOS*/
+.vanilla,.americano{
+	padding-top: 30px;
+	background-color: #D0ADA7;
+	height: 560px;
+}
+#Taza1 img{
+	width: 650px;
+	float: right;
+}
+#botella{
+	width: 600px;
+	position: relative;
+}
+#botella img{
+	width: 600px;
+	position: absolute;
+	left: -89px;
+	top: -25px;
+}
+.texto{
+	width: 800px;
+	height: 400px;
+	position: relative;
+	left: 415px;
+	top: 60px;
+	text-align: right;
+}
+.texto h1{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 5em;
+	font-family: trebuchet ms;
+}
+.texto h2{
+	position: absolute;
+	right: 0px;
+	top: 90px;
+	font-size: 2.8em;
+	font-family: trebuchet ms;
+}
+.texto p{
+	position: absolute;
+	right: 0px;
+	top: 160px;
+	width: 400px;
+	font-family: calibri;
+	font-size: 1.4em;
+}
+.texto h6{
+	position: absolute;
+	right: 0px;
+	top: 250px;
+	font-family: calibri;
+	font-size: 1.7em;
+	padding-bottom: 38px;
+}
+.texto a{
+	position: absolute;
+	right: 0px;
+	top: 300px;
+	font-family: calibri;
+	padding: 15px;
+	padding-right: 40px;
+	padding-left: 40px;
+	background-color: white;
+	text-decoration: none;
+	color: black;
+}
+.texto a:hover,.texto2 a:hover{
+	background-color: #5e2e46;
+	color: white;
+}
+.latte{
+	padding-top: 30px;
+	background-color: #E8D4CB;
+	height: 560px;
+}
+#Taza2 img{
+	width: 650px;
+	float: left;
+}
+#botella2{
+	width: 500px;
+	position: absolute;
+	right: 51px;
+}
+#botella2 img{
+	width:600px;
+	position: relative;
+	right: 0px;
+	top: -25px;
+}
+.texto2{
+	width: 800px;
+	height: 400px;
+	position: relative;
+	left: 120px;
+	top: 60px;
+	text-align: left;
+}
+.texto2 h1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 5em;
+	font-family: trebuchet ms;
+}
+.texto2 h2{
+	position: absolute;
+	left: 0px;
+	top: 90px;
+	font-size: 2.8em;
+	font-family: trebuchet ms;
+}
+.texto2 p{
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	width: 400px;
+	font-family: calibri;
+	font-size: 1.4em;
+	padding-top: 55px;
+	padding-bottom: 18px;
+}
+.texto2 h6{
+	position: absolute;
+	left: 0px;
+	top: 250px;
+	font-family: calibri;
+	font-size: 1.7em;
+	padding-bottom: 38px;
+}
+.texto2 a{
+	position: absolute;
+	left: 0px;
+	top: 300px;
+	font-family: calibri;
+	padding: 15px;
+	padding-right: 40px;
+	padding-left: 40px;
+	background-color: white;
+	text-decoration: none;
+	color: black;
+}		
+.dulceleche{
+	padding-top: 30px;
+	background-color: #B67F81;
+	height: 560px;
+}	
+
+		
+		/*FOOTER*/
+footer{
+	height: 300px;
+	background-color: #5e2e46;
+	padding: 50px;
+}
+#footer_logo{
+	width: 250px;
+	padding-bottom: 20px;
+}
+.elementos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.elemento{
+	width: 250px;
+	height: 200px;
+	font-family: calibri;
+	color: white;
+}
+#medio{
+	padding-left: 30px;
+}
+.elemento li{
+	list-style: none;
+	line-height: 250%;
+}
+.elemento a{
+	text-decoration: none;
+	font-family: calibri;
+	color: white;
+}
+.elemento h1{
+	font-size: 1.2em;
+	padding-top: 20px;
+}
+.suscripcion{
+	display: flex;
+	padding-top: 15px;
+}
+#mail {
+	width: 120px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #e0e4e7;
+}
+#recibir {
+	padding: 9px;
+	color: black;
+	border: 1px solid #d0ada7;
+	background-color: #d0ada7;
+}
+#recibir:hover{
+	background-color: #b67f81;
+}
+.images li{
+	line-height: 230%;
+}
+.images img{
+	width: 20px;
+	filter: invert(100%);
+	position: relative;
+	top: 5px;
+	padding-right: 5px;
+}
+.redes img{
+	width: 45px;
+	padding-top: 20px;
+	margin-right: 15px;
+}
+.redes img:hover{
+	filter: invert(50%);
+}
+#copyright{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: center;
+	padding-top: 95px;
+	font-size: 1em;
+	color: white;
+}
